@@ -1,0 +1,109 @@
+.textbox{
+  overflow: hidden;
+  resize: none;
+  font-size: 16px;
+  width: 90%;
+  border: 1px solid #13ad89;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+button,.btn{
+  color : white;
+}
+
+h3{
+  color: #13ad89;
+}
+
+.btn-success{
+  height: fit-content;
+}
+
+.dropdown{
+  position: relative;
+}
+
+.dropdown > a{
+  padding: 5px 10px;
+  background-color: dodgerblue;
+  color: white;
+}
+
+.dropdown > a::after{
+  content: "🠻";
+  margin: 0px 0px 0px 5px;
+}
+
+.select{
+  display: none;
+  background-color: azure;
+}
+
+.select .option:hover{
+  background-color: lightskyblue;
+}
+
+.statusFilter{
+  margin: 0px 10px 0px 0px;
+}
+
+.container-fluid{
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card{
+  font-size: 14px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  padding: 10px;
+  background-color: #ccf5d3;
+  margin-bottom: 8px;
+}
+
+.success{
+  background-color: #13ad89;
+}
+
+.danger{
+  background-color: #cf5f1d
+}
+
+.option{
+  padding: 3px;
+  width: max-content;
+}
+
+.filter{
+  font-size: 20px;
+}
+
+.filter .dropdown{
+  font-size: 16px;
+}
+
+.desp{
+  word-break: break-all;
+  margin-bottom: 5px;
+}
+.card .btn{
+  font-size: 14px;
+}
+.innerCardDrop{
+  margin: 0px 5px 0px 0px;
+}
+
+.SubDrop{
+  position: absolute;
+  top: 0%;
+  left: 100%;
+}
+
+.option a{
+  width: 100%;
+}
